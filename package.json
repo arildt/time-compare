@@ -1,0 +1,15 @@
+{
+  "name": "time-compare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "convert-excel-to-json": "1.5.2",
+    "date-fns": "1.29.0",
+    "js-yaml": "^3.13.0",
+    "json2xls": "0.1.2",
+    "minimist": "1.2.0",
+    "sanitize-filename": "1.6.1"
+  }
+}
