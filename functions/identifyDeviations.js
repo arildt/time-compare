@@ -14,8 +14,6 @@ module.exports = (navReport, jiraReport, cases, users) => {
 	const aggregatedNavReport = indexAndAggregateNavItems(navReport, cases);
 	const aggregatedJiraReport = indexAndAggregateJiraItems(jiraReport, cases, users);
 
-	console.log(cases);
-
 	const visitedIndices = [];
 
 	// Holds all deviations.
